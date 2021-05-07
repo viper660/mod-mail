@@ -1,5 +1,6 @@
 const discord = require("discord.js");
 const { prefix, ServerID } = require("./config.json")
+const fs = require('fs');
 const config = require('./config.json');
 const client = new discord.Client({
 	autoReconnect: true,
