@@ -33,7 +33,7 @@ Categories.forEach(async function(Category) { //
 
 client.on("ready", () => {
 
-    console.log("Bot online")
+    console.log("support system is ready")
     client.user.setActivity("dm me for support")
 })
 
