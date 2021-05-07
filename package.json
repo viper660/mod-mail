@@ -1,0 +1,22 @@
+{
+  "name": "mod-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viper660/mod-mail.git"
+  },
+  "author": "viper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viper660/mod-mail/issues"
+  },
+  "homepage": "https://github.com/viper660/mod-mail#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
