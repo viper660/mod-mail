@@ -150,7 +150,7 @@ client.on("message", async message => {
 
             let uembed = new discord.MessageEmbed()
                 .setAuthor("DIRECT MAIL OPENED")
-                .setColor("GREEN")
+                .setColor("RANDOM")
                 .setThumbnail(client.user.displayAvatarURL())
                 .setDescription("You have been contacted by Staff of **" + message.guild.name + "**, Please wait until he send another message to you!");
 
@@ -193,7 +193,7 @@ client.on("message", async message => {
             if (!member) return message.channel.send('Unable To Send Message')
 
             let lembed = new discord.MessageEmbed()
-                .setColor("GREEN")
+                .setColor("RANDOM")
                 .setAuthor(message.author.username, message.author.displayAvatarURL({ dynamic: true }))
                 .setDescription(message.content)
 
@@ -220,7 +220,7 @@ client.on("message", async message => {
 
             let sembed = new discord.MessageEmbed()
                 .setAuthor("MAIL OPENED")
-                .setColor("GREEN")
+                .setColor("RANDOM")
                 .setThumbnail(client.user.displayAvatarURL())
                 .setDescription("Conversation is now started, you will be contacted by staff soon")
 
