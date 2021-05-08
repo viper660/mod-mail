@@ -5,8 +5,18 @@ const { prefix, ServerID } = require("./config.json")
 client.on("ready", () => {
 
     console.log("Bot online")
-    client.user.setActivity("dm me for support")
 })
+const activities_list = [
+    "Dm For Support",
+    "Watching My Dm"
+    ];
+
+    client.on('ready', () => {
+        setInterval(() => {
+            const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); 
+            client.user.setActivity(activities_list[index],{ type: 'WATCHING' });
+        }, 20000); 
+      });
 
 
 
