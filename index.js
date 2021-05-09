@@ -8,7 +8,7 @@ client.on("ready", () => {
 })
 const activities_list = [
     "Dm For Support",
-    "Watching My Dm"
+    "My Dm"
     ];
 
     client.on('ready', () => {
